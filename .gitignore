@@ -78,7 +78,7 @@
 *.csr
 
 ## Certificate
-*.der 
+*.der
 
 ## Key database file
 *.kdb
@@ -101,3 +101,5 @@
 ## S/MIME message
 *.smime
 *.vsix
+
+.flowise
