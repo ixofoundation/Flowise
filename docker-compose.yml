@@ -2,11 +2,11 @@ version: '3.1'
 
 services:
     flowise:
-        # image: ghcr.io/ixofoundation/flowise:v0.0.1
+        image: ghcr.io/ixofoundation/flowise:v0.0.1
         container_name: ixo-flowise
-        build:
-            context: .
-            dockerfile: Dockerfile
+        # build:
+        #     context: .
+        #     dockerfile: Dockerfile
         restart: always
         environment:
             - PORT=${PORT}
